@@ -1,6 +1,6 @@
 # PowerAnalysisESM
 
-## Shiny app to perform power analysis to select the number of individuals in ESM studies
+## Shiny app to perform power analysis to select the number of participants in ESM studies
 
 Download and run the shiny app:
 
