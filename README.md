@@ -21,5 +21,11 @@ library(plyr)
 library(parallel)
 library(shinyjs)
 
-runGitHub("PowerAnalysisESM", "rstudio")
+
+library(devtools)
+devtools::install_github("ginettelafit/PowerAnalysisESM", force = T)
+
+library(PowerAnalysisESM)
+
+runGist("https://gist.github.com/ginettelafit/6bac9d35c2521cc4fd91ce4b82490236")
 ```
