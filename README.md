@@ -2,7 +2,7 @@
 
 ## Shiny app to perform power analysis to select the number of participants in ESM studies
 
-Download and run the shiny app:
+Users can download the app and run locally on their computer by executing the following commands in R or Rstudio.
 
 ```
 library(htmltools)
