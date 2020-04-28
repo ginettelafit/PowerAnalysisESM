@@ -1,6 +1,6 @@
-# PowerAnalysisESM
+# PowerAnalysisIL
 
-## Shiny app to perform power analysis to select the number of participants in ESM studies
+## Shiny app and R package to perform a power analysis to select the number of participants in intensive longitudinal studies
 
 Users can download the app and run locally on their computer by executing the following commands in R or Rstudio.
 
@@ -20,12 +20,12 @@ library(MASS)
 library(plyr)
 library(parallel)
 library(shinyjs)
-
+library(compiler)
+library(future.apply)
 
 library(devtools)
-devtools::install_github("ginettelafit/PowerAnalysisESM", force = T)
+devtools::install_github("ginettelafit/PowerAnalysisIL", force = T)
 
-library(PowerAnalysisESM)
-
-runGist("https://gist.github.com/ginettelafit/6bac9d35c2521cc4fd91ce4b82490236")
+library(PowerAnalysisIL)
+PowerAnalysisIL::RunShiny()
 ```
